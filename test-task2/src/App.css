@@ -1,0 +1,6 @@
+.app-wrapper {
+  max-width: 320px;
+  border: 1px solid red;
+  width: 100%;
+  margin: 0 auto;
+}
