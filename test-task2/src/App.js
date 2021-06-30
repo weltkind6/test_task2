@@ -1,11 +1,16 @@
 import './App.css';
 import React from 'react'
 import Header from "./Components/Header/Header";
+import Player from "./Components/Player/Player";
 
 function App() {
   return (
-    <div className="app-wrapper">
+    <div className="App">
+        <div className='App_wrapper'>
+
+        </div>
      <Header />
+     <Player />
     </div>
   );
 }

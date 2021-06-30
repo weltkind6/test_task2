@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    font-style: normal;
+    src: local('12093.ttf'), url("./fonts/12093.ttf") format('ttf');
+}

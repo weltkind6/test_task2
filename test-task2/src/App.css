@@ -1,6 +1,10 @@
-.app-wrapper {
+.App_wrapper {
   max-width: 320px;
-  border: 1px solid red;
+  background-color: cornflowerblue;
   width: 100%;
-  margin: 0 auto;
+}
+@font-face {
+  font-family: Proxima Nova;
+  font-style: normal;
+  src: local('12093.ttf'), url("./fonts/12093.ttf") format('ttf');
 }
