@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react'
 import Header from "./Components/Header/Header";
 import Player from "./Components/Player/Player";
+import Statistic from "./Components/Statistic/Statistic";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         </div>
      <Header />
      <Player />
+     <Statistic />
     </div>
   );
 }

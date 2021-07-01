@@ -1,0 +1,25 @@
+.Statistic {
+  .tab {
+    display: none;
+  }
+
+  .tab-wrapper:hover .tab {
+    display: block;
+  }
+
+  .tab-wrapper {
+    width: 180px;
+  }
+
+  .tab-button {
+    display: flex;
+    background: #5A60E7;
+    border-radius: 5px;
+  }
+
+  .tab-dropDown {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid fuchsia;
+  }
+}
