@@ -1,31 +1,13 @@
 .Statistic {
-  .tab {
-    display: none;
-  }
 
-  .tab-wrapper:hover .tab {
+
+  .tabOnClick {
     display: block;
-
   }
 
   .tab-wrapper {
-
+    width: 180px;
+    padding: 20px 0 20px 10px;
   }
 
-  .tab-button {
-    display: flex;
-    background: #5A60E7;
-    border-radius: 5px;
-    padding: 10px 15px;
-  }
-
-  .tab-button > span {
-    margin: 0 30px 0 15px;
-  }
-
-  .tab-dropDown {
-    display: flex;
-    flex-direction: column;
-    outline: 1px solid fuchsia;
-  }
 }

@@ -1,0 +1,16 @@
+.tab-dropDown {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid fuchsia;
+    font-size: 16px;
+    line-height: 140%;
+    color: #909090;
+}
+.tab-dropDown > a {
+    margin: 10px 0 10px 10px;
+    text-decoration: none;
+}
+
+.tabInvisible {
+   visibility: hidden;
+}

@@ -1,0 +1,17 @@
+.tab-button {
+    display: flex;
+    background: #5A60E7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tab-button > span {
+    margin: 0 20px 0 10px;
+}
+.stat-items > img {
+    margin-right: 2px;
+}
+.wrapper2 {
+    background: orangered;
+}
+
