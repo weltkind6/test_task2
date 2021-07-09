@@ -11,3 +11,11 @@ body {
     font-style: normal;
     src: local('12093.ttf'), url("./fonts/12093.ttf") format('ttf');
 }
+button {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}

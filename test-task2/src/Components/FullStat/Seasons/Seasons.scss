@@ -1,0 +1,30 @@
+.Seasons {
+    background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%),
+    linear-gradient(0deg, #2C2C2C, #2C2C2C);
+
+&__wrapper {
+     padding: 10px 10px 20px 10px;
+ }
+
+.buttons {
+    border: 0.5px solid #5A60E7;
+    border-radius: 5px;
+
+&__wrapper {
+     display: flex;
+     justify-content: space-around;
+     padding: 10px 20px;
+ }
+}
+
+&__buttons:first-child {
+     margin-right: 25px;
+ }
+
+button {
+    background: none;
+    outline: none;
+    color: #ACAFF3;
+}
+}
+
