@@ -2,10 +2,11 @@ import React from 'react';
 import './Statistic.scss'
 import TabButton from "./TabButton/TabButtons";
 import Tab from "./Tab/Tab";
+import Nearest from "./Nearest/Nearest";
 
 const Statistic = () => {
 
-    const [state, setState] = React.useState(true)
+    const [state, setState] = React.useState(false)
     const showMenu = () => {
         setState(!state)
     }
@@ -19,6 +20,7 @@ const Statistic = () => {
                     </div>
                     <Tab state={state}/>
                 </div>
+                <Nearest/>
             </div>
         </div>
     );

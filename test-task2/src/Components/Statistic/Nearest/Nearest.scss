@@ -1,0 +1,15 @@
+.Nearest {
+  cursor: pointer;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 8px 17px 8px 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+  }
+}
+
+.calendar {
+  margin-right: 8px;
+}

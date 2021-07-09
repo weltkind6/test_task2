@@ -1,17 +1,21 @@
-.tab-button {
+.TabButtons-wrapper {
     display: flex;
-    background: #5A60E7;
-    border-radius: 5px;
-    padding: 10px;
+    cursor: pointer;
 }
 
-.tab-button > span {
-    margin: 0 20px 0 10px;
+.tabItems {
+    width: 25px;
 }
-.stat-items > img {
-    margin-right: 2px;
+
+.tabItems > img {
+    margin-right: 3px;
 }
-.wrapper2 {
-    background: orangered;
+.tabItems > img:last-child {
+    margin-right: 0;
+}
+
+.TabButtons-wrapper > span {
+    margin-right: 33px;
+    color: #FFFFFF;
 }
 
