@@ -1,0 +1,36 @@
+.Numbers__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.Numbers__wrapper > div {
+    width: 68px;
+    height: 60px;
+    border: 1px solid;
+    background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%),
+    linear-gradient(0deg, #2C2C2C, #2C2C2C);
+    border-image-source: linear-gradient(143.66deg, #6171FF -9.12%, rgba(90, 96, 231, 0) 40.43%);
+    border-radius: 5px;
+}
+
+.Numbers-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Numbers-item > span:first-child {
+    margin-bottom: 10px;
+    text-align: left;
+    color: rgba(250, 249, 249, 1);
+}
+
+.Numbers-item > span:nth-child(2n) {
+    text-align: right;
+    color: rgba(255, 121, 91, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
