@@ -3,17 +3,13 @@ import './Header.scss'
 import logo from '../../img/Logo.svg'
 import crossBall from '../../img/CROSSBaLL.svg'
 import backPackLogo from '../../img/Vector.svg'
+import Logo from "../shared/Logo/Logo";
 
 const Header = () => {
     return (
         <div className='Header'>
             <div className="Header__left">
-                <div>
-                    <img src={logo} alt=""/>
-                </div>
-                <div className='crossBall'>
-                    <img src={crossBall} alt=""/>
-                </div>
+                <Logo />
             </div>
             <div className='Header__right'>
                 <div className='backPackLogo'>

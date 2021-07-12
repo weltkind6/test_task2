@@ -1,0 +1,7 @@
+.Logo {
+    display: flex;
+    cursor: pointer;
+}
+.crossBall {
+    margin-left: 10px;
+}

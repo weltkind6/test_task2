@@ -4,19 +4,19 @@ import Header from "./Components/Header/Header";
 import Player from "./Components/Player/Player";
 import Statistic from "./Components/Statistic/Statistic";
 import FullStat from "./Components/FullStat/FullStat";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-        <div className='App_wrapper'>
+    return (
+        <div className="App">
 
+            <Header/>
+            <Player/>
+            <Statistic/>
+            <FullStat/>
+            <Footer/>
         </div>
-     <Header />
-     <Player />
-     <Statistic />
-     <FullStat />
-    </div>
-  );
+    );
 }
 
 export default App;
