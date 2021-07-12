@@ -1,5 +1,5 @@
 .Footer {
-  //background: #222222;
+  background: #222222;
 
   &__wrapper {
     display: flex;
@@ -26,10 +26,43 @@
     font-size: 16px;
     line-height: 110%;
   }
+
   &__socials {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 30px;
+  }
+
+
+  &__logo {
+    display: flex;
+
+    .wLogo {
+      margin-right: 10px;
+    }
+  }
+
+  &__stores {
+    display: flex;
+    margin: 40px 0 35px 0;
+  }
+  &__stores > div {
+    cursor: pointer;
+  }
+
+  &__stores > div:first-child {
+    margin-right: 10px;
+  }
+
+  &__info {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 110%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  &__info div:first-child {
+    margin-bottom: 5px;
   }
 }

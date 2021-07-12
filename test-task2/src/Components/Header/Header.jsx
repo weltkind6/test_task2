@@ -1,7 +1,5 @@
 import React from 'react';
 import './Header.scss'
-import logo from '../../img/Logo.svg'
-import crossBall from '../../img/CROSSBaLL.svg'
 import backPackLogo from '../../img/Vector.svg'
 import Logo from "../shared/Logo/Logo";
 
