@@ -1,0 +1,69 @@
+.top-rewards {
+    position: relative;
+    display: flex;
+}
+
+.Rewards__header {
+    font-size: 14px;
+    line-height: 110%;
+    color: #909090;
+}
+
+.Rewards-top {
+    display: flex;
+    border-bottom: 1px solid #D6D7F9;
+}
+
+.reward-block {
+    margin-right: 15px;
+}
+
+.reward-block:last-child {
+    margin-right: 85px;
+}
+
+.inActiveReward-block > img:first-child {
+    margin-right: 10px;
+}
+
+
+.reward-block > span {
+    position: absolute;
+    top: -2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 110%;
+    font-weight: 400;
+    color: #5A60E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.first {
+    left: 26px;
+}
+
+.second {
+    left: 75px;
+}
+
+.third {
+    left: 122px;
+    padding: 0 3px;
+}
+
+.Rewards-bottom {
+    margin-top: 10px;
+}
+
+.Rewards-bottom > img {
+    margin-right: 5px;
+}
+
+.Rewards-bottom > img:last-child {
+    margin-right: 0;
+}
