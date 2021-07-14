@@ -5,6 +5,7 @@ import Player from "./Components/Player/Player";
 import Statistic from "./Components/Statistic/Statistic";
 import FullStat from "./Components/FullStat/FullStat";
 import Footer from "./Components/Footer/Footer";
+import Ratio from "./Components/Ratio/Ratio";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Player/>
             <Statistic/>
             <FullStat/>
+            <Ratio />
             <Footer/>
         </div>
     );
