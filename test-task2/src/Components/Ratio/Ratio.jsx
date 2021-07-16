@@ -3,6 +3,25 @@ import './Ratio.css'
 import tab from "../../img/tab.svg";
 
 const Ratio = () => {
+
+    const arr = [
+        {season: '2017/2016', games: 9, goals: 174, pas: 122},
+        {season: '2018/2017', games: 7, goals: 157, pas: 145},
+        {season: '2018/2019', games: 6, goals: 173, pas: 132},
+        {season: '2020/2019', games: 5, goals: 252, pas: 98},
+        {season: '2020/2021', games: 5, goals: 133, pas: 199},
+    ]
+
+    const [sortData, setSortData] = React.useState(arr);
+    const [toggle, setToggle] = React.useState(false);
+
+    const sortHandler = () => {
+        setToggle(!toggle);
+        if (toggle) {
+            setSortData([...sortData.sort((a, b) => a.goals - b.goals)]);
+        } else setSortData([...sortData.sort((a, b) => b.goals - a.goals)]);
+    }
+
     return (
         <div className='Ratio'>
             <div className="Ratio__wrapper">
@@ -19,40 +38,17 @@ const Ratio = () => {
                 <table className='Table'>
                     <tr className='tableHeader'>
                         <th className='Table-season'>Сезон</th>
-                        <th>И</th>
-                        <th>Г</th>
+                        <th onClick={() => alert('Hello world! )')}>И</th>
+                        <th onClick={sortHandler}>Г</th>
                         <th>П</th>
                     </tr>
-                    <tr>
-                        <td>Сезон 2021/2020</td>
-                        <td>5</td>
-                        <td>218</td>
-                        <td>146</td>
-                    </tr>
-                    <tr>
-                        <td>Сезон 2020/2019</td>
-                        <td>5</td>
-                        <td>242</td>
-                        <td>122</td>
-                    </tr>
-                    <tr>
-                        <td>Сезон 2019/2018</td>
-                        <td>6</td>
-                        <td>173</td>
-                        <td>164</td>
-                    </tr>
-                    <tr>
-                        <td>Сезон 2018/2017</td>
-                        <td>7</td>
-                        <td>157</td>
-                        <td>145</td>
-                    </tr>
-                    <tr>
-                        <td>Сезон 2017/2016</td>
-                        <td>9</td>
-                        <td>174</td>
-                        <td>102</td>
-                    </tr>
+                    {sortData.map((i, index) =>
+                        <tr>
+                            <td>{i.season}</td>
+                            <td>{i.games}</td>
+                            <td>{i.goals}</td>
+                            <td>{i.pas}</td>
+                        </tr>)}
                 </table>
             </div>
         </div>

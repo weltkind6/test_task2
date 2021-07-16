@@ -31,10 +31,12 @@
     font-size: 14px;
     line-height: 110%;
     color: #222222;
-    filter: drop-shadow(0px 2px 8px #E9E9E9);
-    border-collapse:separate;
-    border: solid #FFF 1px;
-    border-radius: 6px;
+
+}
+table {
+    border-radius: 5px;
+    box-shadow: -15px 0 10px 0 rgba(0,0,0,0.2);
+
 }
 
 .Table tr > th {
@@ -52,6 +54,7 @@
 .Table tr {
     padding: 5px;
     background: #FAF9F9;
+
 }
 
 .Table tr > td:first-child {
