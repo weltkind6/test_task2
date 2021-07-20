@@ -15,11 +15,11 @@ const Ratio = () => {
     const [sortData, setSortData] = React.useState(arr);
     const [toggle, setToggle] = React.useState(false);
 
-    const sortHandler = () => {
+    const sortDataHandler = field => {
         setToggle(!toggle);
         if (toggle) {
-            setSortData([...sortData.sort((a, b) => a.goals - b.goals)]);
-        } else setSortData([...sortData.sort((a, b) => b.goals - a.goals)]);
+            setSortData([...sortData.sort((a, b) => a[field] - b[field])]);
+        } else setSortData([...sortData.sort((a, b) => b[field] - a[field])]);
     }
 
     return (
@@ -37,10 +37,22 @@ const Ratio = () => {
                 </div>
                 <table className='Table'>
                     <tr className='tableHeader'>
-                        <th className='Table-season'>Сезон</th>
-                        <th onClick={() => alert('Hello world! )')}>И</th>
-                        <th onClick={sortHandler}>Г</th>
-                        <th>П</th>
+                        <th onClick={() => {
+                            sortDataHandler('seasons')
+                        }} className='Table-season'>Сезон
+                        </th>
+                        <th onClick={() => {
+                            sortDataHandler('games')
+                        }}>И
+                        </th>
+                        <th onClick={() => {
+                            sortDataHandler('goals')
+                        }}>Г
+                        </th>
+                        <th onClick={() => {
+                            sortDataHandler('pas')
+                        }}>П
+                        </th>
                     </tr>
                     {sortData.map((i, index) =>
                         <tr>
