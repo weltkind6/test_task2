@@ -61,6 +61,7 @@
       width: 100%;
       display: flex;
       align-items: center;
+      justify-content: center;
       background: #FAF9F9;
       box-shadow: 0 2px 4px #E9E9E9;
       padding: 25px 40px;
@@ -88,7 +89,35 @@
     }
 
     .descTop-dropDawn {
+      margin-right: 95px;
+    }
+
+    .dropDawn__wrapper {
       display: flex;
+      padding: 10px;
+      background: #FFFFFF;
+    }
+
+    .dropDawn__wrapper > img:first-child {
+      margin-right: 15px;
+    }
+
+    .titleName {
+      width: 34px;
+      height: 34px;
+    }
+
+    .DescTop-avatar {
+      margin-right: 70px;
+    }
+
+    .Basket > img:last-child {
+
+      position: relative;
+      left: -10px;
+      top: 2px;
+
     }
   }
+
 }

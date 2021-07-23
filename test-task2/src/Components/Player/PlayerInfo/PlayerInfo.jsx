@@ -1,13 +1,11 @@
 import React from 'react';
-import player from "../../../img/Miho.png";
 import './PlayerInfo.css'
+import PlayerImg from "./PlayerImg/PlayerImg";
 
 const PlayerInfo = () => {
     return (
         <div className="info">
-            <div>
-                <img src={player} alt="player" className='playerImg'/>
-            </div>
+           <PlayerImg />
             <div className='ratio'>
                 <div className='indicators'>
                     <span>89.40</span>

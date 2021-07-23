@@ -6,6 +6,9 @@ import BigLogo from '../../img/LogoBig.svg'
 import CrossBallBig from '../../img/CROSSBaLL-big.svg'
 import tab from '../../img/tab.svg'
 import ball from '../../img/ball.svg'
+import backPack from '../../img/BackPack.svg'
+import backPackCounter from '../../img/Counter.svg'
+import PlayerImg from "../Player/PlayerInfo/PlayerImg/PlayerImg";
 
 const Header = () => {
     return (
@@ -42,14 +45,17 @@ const Header = () => {
                         <img src={tab} alt="tab"/>
                     </nav>
                     <div className='descTop-dropDawn'>
-                        <img src={ball} alt="ballLogo"/>
-                        <img src={tab} alt="tab"/>
+                        <div className='dropDawn__wrapper'>
+                            <img src={ball} alt="ballLogo"/>
+                            <img src={tab} alt="tab"/>
+                        </div>
                     </div>
-                    <div>
-                        Miha img
+                    <div className='DescTop-avatar'>
+                        <PlayerImg className={`${"titleName"}`}/>
                     </div>
-                    <div>
-                        backpack
+                    <div className='Basket'>
+                        <img src={backPack} alt="backPack logo"/>
+                        <img src={backPackCounter} alt="backPackCounter"/>
                     </div>
                 </div>
             </div>
