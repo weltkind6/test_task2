@@ -5,6 +5,7 @@ import vk from '../../img/VK.svg'
 import link from '../../img/Subtract.svg'
 import './Player.scss'
 import PlayerInfo from "./PlayerInfo/PlayerInfo";
+import ShareLinks from "./PlayerInfo/SharedLinks/ShareLinks";
 
 const Player = () => {
     return (
@@ -16,13 +17,8 @@ const Player = () => {
                         <img src={pencil} alt="pencil" className='redactingImg'/>
                         <a href='#' style={{color: '#fff'}}>Редактировать</a>
                     </div>
-                    <div>
-                        <span>Поделиться</span>
-                        <div className='shareItems'>
-                            <a href="#"><img src={facebook} alt="facebook"/></a>
-                            <a href="#"><img src={vk} alt="vkontakte"/></a>
-                            <a href="#"><img src={link} alt="linkcopy"/></a>
-                        </div>
+                    <div className='ShareLinks'>
+                        <ShareLinks />
                     </div>
                 </div>
             </div>

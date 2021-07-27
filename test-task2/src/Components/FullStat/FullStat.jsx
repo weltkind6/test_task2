@@ -3,6 +3,7 @@ import './FullStat.scss'
 import Seasons from "./Seasons/Seasons";
 import Numbers from "./Numbers/Numbers";
 import Rewards from "./Rewards/Rewards";
+import ShareLinks from "../Player/PlayerInfo/SharedLinks/ShareLinks";
 
 const FullStat = () => {
     return (
@@ -10,6 +11,7 @@ const FullStat = () => {
             <Seasons />
             <Numbers />
             <Rewards />
+            <ShareLinks />
         </div>
     );
 };
