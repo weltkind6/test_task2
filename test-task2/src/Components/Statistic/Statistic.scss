@@ -13,12 +13,19 @@
   .tab-wrapper {
 
   }
+
   .tab-button {
     background: #5A60E7;
     border-radius: 5px;
     padding: 10px 15px;
     margin-right: 10px;
   }
+}
 
+// 1440 px
 
+@media (min-width: 1440px) {
+  .Statistic {
+    display: none;
+  }
 }

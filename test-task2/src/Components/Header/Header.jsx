@@ -38,10 +38,10 @@ const Header = () => {
                         <img src={CrossBallBig} alt="CrossBallBig"/>
                     </div>
                     <nav className='descTop-menu'>
-                        <div>Расписание</div>
-                        <div>Игровые отчеты</div>
-                        <div>Статистика</div>
-                        <div>Еще</div>
+                        <a href='#'>Расписание</a>
+                        <a href='#'>Игровые отчеты</a>
+                        <a href='#'>Статистика</a>
+                        <a href='#'>Еще</a>
                         <img src={tab} alt="tab"/>
                     </nav>
                     <div className='descTop-dropDawn'>

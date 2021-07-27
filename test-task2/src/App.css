@@ -4,8 +4,17 @@
     src: local('12093.ttf'), url("./fonts/12093.ttf") format('ttf');
 }
 
-.App_wrapper {
-    max-width: 320px;
-    background-color: cornflowerblue;
-    width: 100%;
+@media (min-width: 1440px) {
+    .App__wrapper {
+        background: orange;
+    }
+}
+.StatInfo-wrapper {
+    margin-left: 50px;
+}
+.DescTop-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px 40px 250px 40px;
+    background: #E5E5E5;
 }

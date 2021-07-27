@@ -48,13 +48,14 @@
 
 @media (min-width: 1440px) {
   .Header {
+
     &__wrapper {
       display: none;
 
     }
 
     &__descTop {
-
+      background: #FAF9F9;
     }
 
     &__descTop-wrapper {
@@ -65,6 +66,7 @@
       background: #FAF9F9;
       box-shadow: 0 2px 4px #E9E9E9;
       padding: 25px 40px;
+
     }
 
     .descTop-logo {
@@ -80,8 +82,11 @@
       margin: 0 230px 0 160px;
     }
 
-    .descTop-menu > div {
+    .descTop-menu > a {
       margin-right: 50px;
+      color: #222222;
+      text-decoration: none;
+      font-size: 16px;
     }
 
     .descTop-menu > div:nth-child(4n) {

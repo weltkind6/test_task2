@@ -33,9 +33,10 @@
     color: #222222;
 
 }
+
 table {
     border-radius: 5px;
-    box-shadow: -15px 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: -15px 0 10px 0 rgba(0, 0, 0, 0.2);
 
 }
 
@@ -68,4 +69,12 @@ table {
 
 .Table tr:nth-child(2n) {
     background: #FFFFFF;
+}
+
+/*1440 px*/
+
+@media (min-width: 1440px) {
+    .Ratio__wrapper {
+        padding: 0;
+    }
 }

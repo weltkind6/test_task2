@@ -10,12 +10,18 @@ import Ratio from "./Components/Ratio/Ratio";
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Player/>
-            <Statistic/>
-            <FullStat/>
-            <Ratio />
-            <Footer/>
+            <div className="App__wrapper">
+                <Header/>
+                <div className='DescTop-wrapper'>
+                    <Player/>
+                    <div className='StatInfo-wrapper'>
+                        <Statistic/>
+                        <FullStat/>
+                        <Ratio/>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
         </div>
     );
 }

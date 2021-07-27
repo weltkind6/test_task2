@@ -53,10 +53,23 @@
         margin-right: 9px;
       }
     }
+
     .shareItems {
       margin-top: 6px;
       display: flex;
       justify-content: space-between;
+    }
+  }
+}
+
+// width 1440 px
+
+@media (min-width: 1440px) {
+  .Player {
+    border-radius: 10px;
+
+    &__wrapper {
+
     }
   }
 }
