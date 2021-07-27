@@ -51,7 +51,6 @@
 
     &__wrapper {
       display: none;
-
     }
 
     &__descTop {
@@ -59,14 +58,12 @@
     }
 
     &__descTop-wrapper {
-      width: 100%;
       display: flex;
+      padding: 25px 40px;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       background: #FAF9F9;
       box-shadow: 0 2px 4px #E9E9E9;
-      padding: 25px 40px;
-
     }
 
     .descTop-logo {
