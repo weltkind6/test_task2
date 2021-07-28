@@ -12,6 +12,14 @@ function App() {
         <div className="App">
             <div className="App__wrapper">
                 <Header/>
+                <Player/>
+                <Statistic/>
+                <FullStat/>
+                <Ratio/>
+                <Footer/>
+            </div>
+            <div className="descTop-block">
+                <Header/>
                 <div className='DescTop-wrapper'>
                     <Player/>
                     <div className='StatInfo-wrapper'>

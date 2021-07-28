@@ -8,6 +8,7 @@
 @media (min-width: 1440px) {
     .App__wrapper {
         background: orange;
+        display: none;
     }
 }
 
