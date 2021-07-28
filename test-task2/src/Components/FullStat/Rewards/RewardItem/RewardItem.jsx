@@ -1,11 +1,12 @@
 import React from 'react';
 import rewardImg from "../../../../img/reward5.svg";
+import RewardItemsNumber from "../RewardItemsNumber/RewardItemsNumber";
 
 const RewardItem = props => {
     return (
         <div className='reward-block'>
             <img src={rewardImg} alt='reward'/>
-            <span className={props.className}>{props.number}</span>
+            <RewardItemsNumber className={props.className} number={props.number}/>
         </div>
     );
 };
