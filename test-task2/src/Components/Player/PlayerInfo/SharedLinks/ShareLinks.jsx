@@ -6,14 +6,14 @@ import './ShareLinks.css'
 
 const ShareLinks = () => {
     return (
-        <>
+        <div className='shareItems-block'>
             <span>Поделиться</span>
             <div className='shareItems'>
-                <a href="#"><img src={facebook} alt="facebook"/></a>
-                <a href="#"><img src={vk} alt="vkontakte"/></a>
-                <a href="#"><img src={link} alt="linkcopy"/></a>
+                <a href="#"><img src={facebook} alt="facebook" className='shareItems-link'/></a>
+                <a href="#"><img src={vk} alt="vkontakte" className='shareItems-link'/></a>
+                <a href="#"><img src={link} alt="linkcopy" className='shareItems-link lastItem'/></a>
             </div>
-        </>
+        </div>
     );
 };
 

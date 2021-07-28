@@ -55,6 +55,23 @@
     }
 
   }
+
+  .shareItems-block {
+    display: block;
+    font-size: 12px;
+
+    .shareItems {
+      margin-top: 6px;
+    }
+
+    .shareItems-link {
+      margin-right: 12px;
+    }
+
+    .lastItem {
+      margin-right: 0;
+    }
+  }
 }
 
 // width 1440 px
