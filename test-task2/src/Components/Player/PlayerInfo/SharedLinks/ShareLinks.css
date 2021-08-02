@@ -5,5 +5,27 @@
 @media (min-width: 1440px) {
     .shareItems-block {
         display: block;
+
+    }
+
+    .shareItems {
+        padding: 8px 30px 0 0 ;
+    }
+
+    .shareItems > a {
+        margin-right: 15px;
+    }
+    .shareItems > a:last-child {
+        margin-right: 0;
+    }
+
+    .shareItems-link {
+        width: 25px;
+        height: 25px;
+    }
+
+    .shareItems-block > span {
+        color: #ACAFF3;
+        font-size: 12px;
     }
 }

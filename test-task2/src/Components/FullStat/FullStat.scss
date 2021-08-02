@@ -1,12 +1,67 @@
 .FullStat {
-  padding: 10px 10px 20px 10px;
-  background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%),
-  linear-gradient(0deg, #2C2C2C, #2C2C2C);
+  &__wrapper {
+    padding: 10px 10px 20px 10px;
+    background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%),
+    linear-gradient(0deg, #2C2C2C, #2C2C2C);
+  }
+
+  &__descTop {
+    display: none;
+  }
 }
 
 @media (min-width: 1440px) {
   .FullStat {
-    border-radius: 10px;
+    &__wrapper {
+      display: none;
+    }
+
+    &__descTop {
+      display: block;
+    }
+
+    .SeasonsScore-descTop {
+      padding: 0 55px;
+    }
+
+    &__descTop-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%),
+      linear-gradient(0deg, #2C2C2C, #2C2C2C);
+
+    }
+
+    .DescTop-left {
+      display: flex;
+      padding: 25px 0 20px 30px;
+    }
+
+    .Shared-descTop {
+      padding: 10px 20px 15px 50px;
+    }
+
+    .Shared-descTop > div {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .item1 {
+      margin-right: 10px;
+      opacity: .5;
+    }
+
+    .item2 {
+      margin-right: 10px;
+      opacity: .7;
+    }
+
+    .item03 {
+      margin-right: 10px;
+      opacity: .8;
+    }
+
   }
 
 }

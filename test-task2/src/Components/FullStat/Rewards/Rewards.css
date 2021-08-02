@@ -12,6 +12,7 @@
 }
 
 .Rewards__header {
+    display: block;
     font-size: 14px;
     line-height: 110%;
     color: #909090;
@@ -77,5 +78,8 @@
 @media (min-width: 1440px) {
     .top-rewards > div:last-child {
         margin-right: 60px;
+    }
+    .Rewards__header {
+        display: none;
     }
 }

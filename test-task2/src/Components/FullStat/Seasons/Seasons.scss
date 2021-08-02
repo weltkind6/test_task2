@@ -1,29 +1,42 @@
 .Seasons {
 
 
-&__wrapper {
-     //padding: 10px 10px 20px 10px;
- }
+  &__wrapper {
+    //padding: 10px 10px 20px 10px;
+  }
 
-.buttons {
+  .buttons {
     border: 0.5px solid #5A60E7;
     border-radius: 5px;
 
-&__wrapper {
-     display: flex;
-     justify-content: space-around;
-     padding: 10px 20px;
- }
-}
+    &__wrapper {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 20px;
+    }
+  }
 
-&__buttons:first-child {
-     margin-right: 25px;
- }
+  &__buttons:first-child {
+    margin-right: 25px;
+  }
 
-button {
+  button {
     background: none;
     outline: none;
     color: #ACAFF3;
+  }
 }
+
+@media (min-width: 1440px) {
+  .firstButton {
+    padding: 6px 60px;
+    background: #5A60E7;
+    color: #FFFFFF;
+  }
+  .lastButton {
+    padding: 6px 60px;
+    color: #ACAFF3;
+    outline: 1px dotted red;
+  }
 }
 
