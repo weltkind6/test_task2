@@ -15,11 +15,15 @@
 }
 
 .Numbers-item {
+    background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     padding: 10px 5px;
     font-size: 12px;
     font-weight: 600;
+    border: 1px solid;
+    border-image-source: linear-gradient(143.66deg, #6171FF -9.12%, rgba(90, 96, 231, 0) 40.43%);
 }
 
 .Numbers-item > span:first-child {
