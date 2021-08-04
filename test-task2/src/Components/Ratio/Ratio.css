@@ -74,6 +74,10 @@ table {
 /*1440 px*/
 
 @media (min-width: 1440px) {
+    .Table {
+        font-size: 16px;
+        color: #222222;
+    }
     .Ratio__wrapper {
         padding: 0;
     }

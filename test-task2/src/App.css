@@ -4,8 +4,16 @@
     src: local('12093.ttf'), url("./fonts/12093.ttf") format('ttf');
 }
 
+.descTop-block {
+    display: none;
+}
+
 /*1440 px*/
 @media (min-width: 1440px) {
+    .descTop-block {
+        display: block;
+    }
+
     .App__wrapper {
         background: orange;
         display: none;

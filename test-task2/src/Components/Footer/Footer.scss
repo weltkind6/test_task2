@@ -9,44 +9,6 @@
     padding: 20px 50px 25px 50px;
   }
 
-  &__contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__contacts > a:first-child {
-    margin-bottom: 10px;
-  }
-
-  &__contacts > a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 110%;
-  }
-
-  &__socials {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 30px;
-  }
-
-
-  &__logo {
-    display: flex;
-
-    .wLogo {
-      margin-right: 10px;
-    }
-  }
-
-  &__stores {
-    display: flex;
-    margin: 40px 0 35px 0;
-  }
   &__stores > div {
     cursor: pointer;
   }
@@ -55,14 +17,20 @@
     margin-right: 10px;
   }
 
-  &__info {
-    color: #FFFFFF;
-    font-size: 12px;
-    line-height: 110%;
-    text-align: center;
-    margin-top: 20px;
-  }
   &__info div:first-child {
     margin-bottom: 5px;
+  }
+}
+
+//1440 px
+
+@media (min-width: 1440px) {
+  .Footer {
+    &__wrapper {
+      display: none;
+    }
+    .FooterDescTop {
+
+    }
   }
 }
