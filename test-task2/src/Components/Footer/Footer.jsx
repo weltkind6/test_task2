@@ -5,8 +5,8 @@ import FooterStores from "./FooterStores/FooterStores";
 import FooterInfo from "./FooterInfo/FooterInfo";
 import FooterContacts from "./FooterContacts/FooterContacts";
 import FooterMenu from "./FooterMenu/FooterMenu";
-import logoWhite from '../../img/LogoWhite.svg'
-import footerLogo from '../../img/CROSSBaLL-white.svg'
+import logoWhite from '../../img/BigLogo.svg'
+import footerLogo from '../../img/BigCROSSBaLL.svg'
 import Logo from "../shared/Logo/Logo";
 
 const Footer = () => {
@@ -24,6 +24,7 @@ const Footer = () => {
                     <div className='FooterDescTop__upperBlock'>
                         <div>
                             <FooterStores/>
+                            <Logo crossImg={footerLogo} logoImg={logoWhite}/>
                         </div>
                         <div className='FooterDescTop__menu'>
                             <FooterMenu

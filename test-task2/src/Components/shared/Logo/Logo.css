@@ -2,10 +2,33 @@
     display: flex;
     cursor: pointer;
 }
+
 .crossBall {
     margin-left: 10px;
     color: deeppink;
 }
 
+.Footer__logo {
+    width: 20px;
+    height: auto;
+}
+
+.Footer__crossBall {
+    width: 90px;
+    height: 8px;
+}
+
 
 /*1440px*/
+
+@media (min-width: 1440px) {
+    .Footer__logo {
+        width: 32px;
+        height: auto;
+    }
+
+    .Footer__crossBall {
+        width: 135px;
+        height: 12px;
+    }
+}
