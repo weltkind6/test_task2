@@ -3,8 +3,11 @@ import './Footer.scss'
 import FooterSocials from "./FooterSocials/FooterSocials";
 import FooterStores from "./FooterStores/FooterStores";
 import FooterInfo from "./FooterInfo/FooterInfo";
-import FooterLogo from "./FooterLogo/FooterLogo";
 import FooterContacts from "./FooterContacts/FooterContacts";
+import FooterMenu from "./FooterMenu/FooterMenu";
+import logoWhite from '../../img/LogoWhite.svg'
+import footerLogo from '../../img/CROSSBaLL-white.svg'
+import Logo from "../shared/Logo/Logo";
 
 const Footer = () => {
     return (
@@ -13,45 +16,44 @@ const Footer = () => {
                 <FooterContacts/>
                 <FooterSocials/>
                 <FooterStores/>
-                <FooterLogo/>
+                <Logo crossImg={footerLogo} logoImg={logoWhite}/>
                 <FooterInfo/>
             </div>
             <div className="FooterDescTop">
                 <div className="FooterDescTop__wrapper">
-                    <div>
-                        <FooterLogo/>
-                        <FooterStores/>
+                    <div className='FooterDescTop__upperBlock'>
+                        <div>
+                            <FooterStores/>
+                        </div>
+                        <div className='FooterDescTop__menu'>
+                            <FooterMenu
+                                item={'Разделы'}
+                                item2={'Главная'}
+                                item3={'Расписание'}
+                                item4={'Игровые отчеты'}
+                                item5={'Статистика'}
+                            />
+                            <FooterMenu
+                                item={'Виды спорта'}
+                                item2={'Футбол'}
+                                item3={'Баскетбол'}
+                                item4={'Волейбол'}
+                            />
+                            <FooterMenu
+                                item={'Полезное'}
+                                item2={'Как записаться?'}
+                                item3={'Ответы на повросы'}
+                                item4={'Достижения'}
+                            />
+                            <FooterMenu
+                                item={'Че почем'}
+                                item2={'Абонименты'}
+                                item3={'Корп. клиентам'}
+                                item4={'Партнеры'}
+                            />
+                        </div>
                     </div>
-                    <div>
-                        <ul>
-                            <li><a href="#">Разделы</a></li>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Расписание</a></li>
-                            <li><a href="#">Игровые отчеты</a></li>
-                            <li><a href="#">Статистика</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Разделы</a></li>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Расписание</a></li>
-                            <li><a href="#">Игровые отчеты</a></li>
-                            <li><a href="#">Статистика</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Разделы</a></li>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Расписание</a></li>
-                            <li><a href="#">Игровые отчеты</a></li>
-                            <li><a href="#">Статистика</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Разделы</a></li>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Расписание</a></li>
-                            <li><a href="#">Игровые отчеты</a></li>
-                            <li><a href="#">Статистика</a></li>
-                        </ul>
-                    </div>
+
                     <div>
                         contacts
                     </div>

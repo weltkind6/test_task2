@@ -1,17 +1,15 @@
 import React from 'react';
-import cross from '../../../img/CROSSBaLL.svg'
-import logo from '../../../img/Logo.svg'
 import './Logo.css'
 
 
-const Logo = () => {
+const Logo = props => {
     return (
         <div className='Logo'>
             <div>
-                <img src={logo} alt="logo"/>
+                <img src={props.logoImg} alt="logo"/>
             </div>
             <div className='crossBall'>
-                <img src={cross} alt="crossBall"/>
+                <img src={props.crossImg} alt="crossBall"/>
             </div>
         </div>
     );

@@ -6,8 +6,8 @@ import './FooterStores.css'
 const FooterStores = () => {
     return (
         <div className='Footer__stores'>
-            <div><img src={playMarket} alt='playMarket'/></div>
-            <div><img src={appStore} alt='appStore'/></div>
+            <div><img className='Footer__stores-img' src={playMarket} alt='playMarket'/></div>
+            <div><img className='Footer__stores-img' src={appStore} alt='appStore'/></div>
         </div>
     );
 };

@@ -8,7 +8,16 @@
     display: none;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*1440 px*/
+
 @media (min-width: 1440px) {
     .descTop-block {
         display: block;

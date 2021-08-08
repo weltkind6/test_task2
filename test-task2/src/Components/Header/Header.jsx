@@ -9,13 +9,15 @@ import ball from '../../img/ball.svg'
 import backPack from '../../img/BackPack.svg'
 import backPackCounter from '../../img/Counter.svg'
 import PlayerImg from "../Player/PlayerInfo/PlayerImg/PlayerImg";
+import logo from '../../img/Logo.svg'
+import crossImg from '../../img/CROSSBaLL.svg'
 
 const Header = () => {
     return (
         <div className='Header'>
             <div className="Header__wrapper">
                 <div className="Header__left">
-                    <Logo/>
+                    <Logo logoImg={logo} crossImg={crossImg}/>
                 </div>
                 <div className='Header__right'>
                     <div className='backPackLogo'>

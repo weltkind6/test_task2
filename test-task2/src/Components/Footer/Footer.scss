@@ -20,6 +20,9 @@
   &__info div:first-child {
     margin-bottom: 5px;
   }
+  .FooterDescTop {
+    display: none;
+  }
 }
 
 //1440 px
@@ -30,7 +33,24 @@
       display: none;
     }
     .FooterDescTop {
+      display: block;
+    }
 
+    .FooterDescTop {
+      &__wrapper {
+        padding: 50px 135px 40px 20px;
+      }
+
+      &__upperBlock {
+        display: flex;
+      }
+
+      &__menu {
+        display: flex;
+        width: 100%;
+        margin-left: 175px;
+        justify-content: space-between;
+      }
     }
   }
 }
