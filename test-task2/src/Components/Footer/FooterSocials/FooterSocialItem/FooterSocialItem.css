@@ -1,0 +1,11 @@
+
+@media (min-width: 1440px) {
+    .FooterSocialItem {
+        margin-right: 15px;
+    }
+
+
+    .FooterSocialItem:last-child {
+        margin-right: 0;
+    }
+}

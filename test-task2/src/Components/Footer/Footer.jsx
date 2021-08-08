@@ -23,8 +23,8 @@ const Footer = () => {
                 <div className="FooterDescTop__wrapper">
                     <div className='FooterDescTop__upperBlock'>
                         <div>
-                            <FooterStores/>
                             <Logo crossImg={footerLogo} logoImg={logoWhite}/>
+                            <FooterStores/>
                         </div>
                         <div className='FooterDescTop__menu'>
                             <FooterMenu
@@ -54,12 +54,11 @@ const Footer = () => {
                             />
                         </div>
                     </div>
-
-                    <div>
-                        contacts
-                    </div>
-                    <div>
-                        lower footer
+                    <FooterContacts/>
+                    <div className='FooterDescTop__info'>
+                        <div>© Все права защищены</div>
+                        <FooterSocials/>
+                        <div>Сделано на React</div>
                     </div>
                 </div>
             </div>

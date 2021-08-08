@@ -1,11 +1,24 @@
 a {
     color: #FFFFFF;
-    font-size: 16px;
     line-height: 110%;
 }
+
 ul {
     padding: 0;
 }
+
 ul > li:first-child {
     padding-bottom: 20px;
+}
+
+ul > li {
+    margin-bottom: 10px;
+}
+
+ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.firstItem {
+    color: #ACAFF3;
 }

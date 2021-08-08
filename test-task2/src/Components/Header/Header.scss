@@ -64,6 +64,7 @@
       justify-content: space-between;
       background: #FAF9F9;
       box-shadow: 0 2px 4px #E9E9E9;
+      font-size: 19px;
     }
 
     .descTop-logo {
@@ -85,7 +86,11 @@
       text-decoration: none;
       font-size: 16px;
     }
-  
+
+    .descTop-menu > a:hover {
+      color: #ACAFF3;
+    }
+
 
     .descTop-menu > div:nth-child(4n) {
       margin-right: 10px;

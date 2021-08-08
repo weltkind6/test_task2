@@ -1,9 +1,10 @@
 import React from 'react';
+import './FooterSocialItem.css'
 
 const FooterSocialItem = props => {
     return (
         <>
-            <a href="#"><img src={props.icon} alt={props.alt}/></a>
+            <a className='FooterSocialItem' href="#"><img src={props.icon} alt={props.alt}/></a>
         </>
     );
 };
