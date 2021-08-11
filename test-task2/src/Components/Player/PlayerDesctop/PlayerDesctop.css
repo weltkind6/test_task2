@@ -1,10 +1,14 @@
 .Player__descTop {
     display: block;
-    background: #222222;
+    background: #FFFFFF;
     height: 100%;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 .events-block {
     display: flex;
+}
+.Player__descTop-wrapper {
+    outline: 1px solid red;
+    margin: 50px 65px 235px 20px;
 }

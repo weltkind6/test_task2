@@ -3,7 +3,7 @@ import './TabButtons.css'
 
 const TabButtons = props => {
     return (
-        <div className='TabButtons-wrapper'>
+        <div className={props.className}>
             <div className='tabItems'>
                 <img src={props.chartImg} alt="stat1"/>
             </div>

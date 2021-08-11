@@ -4,7 +4,6 @@ import './Player.scss'
 import PlayerInfo from "./PlayerInfo/PlayerInfo";
 import ShareLinks from "./PlayerInfo/SharedLinks/ShareLinks";
 import PlayerDescTop from "./PlayerDesctop/PlayerDesctop";
-import Statistic from "../Statistic/Statistic";
 
 const Player = (props) => {
 

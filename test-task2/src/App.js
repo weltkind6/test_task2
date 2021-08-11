@@ -12,8 +12,8 @@ function App() {
     const [state, setState] = React.useState(false)
     const showMenu = () => {
         setState(!state)
-        console.log(state)
     }
+
     return (
         <div className="App">
             <div className="App__wrapper">
@@ -27,6 +27,7 @@ function App() {
                 <Ratio/>
                 <Footer/>
             </div>
+
             <div className="descTop-block">
                 <Header/>
                 <div className='DescTop-wrapper'>
@@ -42,6 +43,7 @@ function App() {
                 </div>
                 <Footer/>
             </div>
+
         </div>
     );
 }

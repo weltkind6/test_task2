@@ -35,7 +35,7 @@ a {
 
 .DescTop-wrapper {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 295px 4fr;
     background: #E5E5E5;
     padding: 20px 40px 250px 40px;
 }

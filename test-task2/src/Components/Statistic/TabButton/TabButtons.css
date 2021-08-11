@@ -18,3 +18,14 @@
     color: #FFFFFF;
 }
 
+/*1440px*/
+
+@media (min-width: 1440px) {
+    .TabButtons-wrapper-descTop {
+        background: #EFEFFD;
+        border-radius: 5px;
+        display: flex;
+        color: rgba(90, 96, 231, 1);
+    ;
+    }
+}

@@ -10,10 +10,13 @@ const PlayerDescTop = (props) => {
 
     return (
         <div className='Player__descTop'>
-            <h3>props is here!</h3>
-            <div>
+            <div className='Player__descTop-wrapper'>
                 <div onClick={props.showMenu}>
-                    <TabButtons tabImg={tab} chartImg={userPic}/>
+                    <TabButtons
+                        tabImg={tab}
+                        chartImg={userPic}
+                        className={`${'TabButtons-wrapper-descTop'}`}
+                    />
                 </div>
                 <Tab state={props.state}/>
                 <div>Nearest</div>

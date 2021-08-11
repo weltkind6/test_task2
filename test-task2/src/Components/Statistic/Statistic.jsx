@@ -17,6 +17,7 @@ const Statistic = ({state, showMenu}) => {
                         <TabButton
                             tabImg={tab}
                             chartImg={chart}
+                            className={`${'TabButtons-wrapper'}`}
                         />
                     </div>
                     <Tab state={state}/>
