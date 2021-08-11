@@ -6,7 +6,8 @@
     background: #FFFFFF;
     z-index: 1;
     position: absolute;
-    width: 177px;
+    border-radius: 5px;
+    width: 187px;
 }
 .tab-dropDown > a {
     margin: 10px 0 10px 10px;

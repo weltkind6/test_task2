@@ -8,12 +8,21 @@ import Footer from "./Components/Footer/Footer";
 import Ratio from "./Components/Ratio/Ratio";
 
 function App() {
+
+    const [state, setState] = React.useState(false)
+    const showMenu = () => {
+        setState(!state)
+        console.log(state)
+    }
     return (
         <div className="App">
             <div className="App__wrapper">
                 <Header/>
                 <Player/>
-                <Statistic/>
+                <Statistic
+                    state={state}
+                    showMenu={showMenu}
+                />
                 <FullStat/>
                 <Ratio/>
                 <Footer/>
@@ -21,7 +30,10 @@ function App() {
             <div className="descTop-block">
                 <Header/>
                 <div className='DescTop-wrapper'>
-                    <Player/>
+                    <Player
+                        showMenu={showMenu}
+                        state={state}
+                    />
                     <div className='StatInfo-wrapper'>
                         <Statistic/>
                         <FullStat/>

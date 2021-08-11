@@ -2,7 +2,7 @@ import React from 'react';
 import './Ratio.css'
 import tab from "../../img/tab.svg";
 import Tab from "../Statistic/Tab/Tab";
-import TabArrow from "../shared/Tab/TabArrow";
+import TabArrow from "../shared/TabArrow/TabArrow";
 
 const Ratio = () => {
 

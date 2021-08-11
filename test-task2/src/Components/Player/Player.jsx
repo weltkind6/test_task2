@@ -4,23 +4,28 @@ import './Player.scss'
 import PlayerInfo from "./PlayerInfo/PlayerInfo";
 import ShareLinks from "./PlayerInfo/SharedLinks/ShareLinks";
 import PlayerDescTop from "./PlayerDesctop/PlayerDesctop";
+import Statistic from "../Statistic/Statistic";
 
-const Player = () => {
+const Player = (props) => {
+
     return (
         <div className='Player'>
             <div className="Player__wrapper">
-                <PlayerInfo />
+                <PlayerInfo/>
                 <div className='Player__footer'>
                     <div className='redactingBlock'>
                         <img src={pencil} alt="pencil" className='redactingImg'/>
                         <a href='#' style={{color: '#fff'}}>Редактировать</a>
                     </div>
                     <div className='ShareLinks'>
-                        <ShareLinks />
+                        <ShareLinks/>
                     </div>
                 </div>
             </div>
-            <PlayerDescTop />
+            <PlayerDescTop
+                showMenu={props.showMenu}
+                state={props.state}
+            />
         </div>
     );
 };

@@ -6,12 +6,8 @@ import Nearest from "./Nearest/Nearest";
 import tab from '../../img/tab.svg'
 import chart from '../../img/chart.svg'
 
-const Statistic = () => {
 
-    const [state, setState] = React.useState(false)
-    const showMenu = () => {
-        setState(!state)
-    }
+const Statistic = ({state, showMenu}) => {
 
     return (
         <div className='Statistic'>
