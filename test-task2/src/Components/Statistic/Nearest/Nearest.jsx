@@ -7,7 +7,7 @@ const Nearest = () => {
         <div className='Nearest'>
             <div className='Nearest__wrapper'>
                 <img src={calendar} alt="calendar" className='calendar'/>
-                <span>Ближайшие</span>
+                <span className='Nearest__title'>Ближайшие</span>
             </div>
         </div>
     );

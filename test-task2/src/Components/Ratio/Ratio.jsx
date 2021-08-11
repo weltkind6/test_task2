@@ -1,6 +1,8 @@
 import React from 'react';
 import './Ratio.css'
 import tab from "../../img/tab.svg";
+import Tab from "../Statistic/Tab/Tab";
+import TabArrow from "../shared/Tab/TabArrow";
 
 const Ratio = () => {
 
@@ -29,9 +31,7 @@ const Ratio = () => {
                     <div className='Ratio__button'>
                         <div className='button-block'>
                             <span>Формат</span>
-                            <div>
-                                <img src={tab} alt="tab"/>
-                            </div>
+                           <TabArrow />
                         </div>
                     </div>
                 </div>

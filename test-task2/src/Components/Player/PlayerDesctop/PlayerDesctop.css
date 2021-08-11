@@ -1,0 +1,10 @@
+.Player__descTop {
+    display: block;
+    background: #222222;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.events-block {
+    display: flex;
+}

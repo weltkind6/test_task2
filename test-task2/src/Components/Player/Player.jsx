@@ -1,11 +1,9 @@
 import React from 'react';
 import pencil from '../../img/pencil.svg'
-import facebook from '../../img/facebook.svg'
-import vk from '../../img/VK.svg'
-import link from '../../img/Subtract.svg'
 import './Player.scss'
 import PlayerInfo from "./PlayerInfo/PlayerInfo";
 import ShareLinks from "./PlayerInfo/SharedLinks/ShareLinks";
+import PlayerDescTop from "./PlayerDesctop/PlayerDesctop";
 
 const Player = () => {
     return (
@@ -22,6 +20,7 @@ const Player = () => {
                     </div>
                 </div>
             </div>
+            <PlayerDescTop />
         </div>
     );
 };

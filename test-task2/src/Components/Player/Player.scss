@@ -39,6 +39,10 @@
     padding: 20px 10px 20px 15px;
   }
 
+  &__descTop {
+    display: none;
+  }
+
   &__footer {
     display: flex;
     justify-content: space-between;
@@ -71,6 +75,7 @@
     .lastItem {
       margin-right: 0;
     }
+
   }
 }
 
@@ -79,9 +84,15 @@
 @media (min-width: 1440px) {
   .Player {
     border-radius: 10px;
+    height: 800px;
 
     .ShareLinks {
       display: none;
     }
+
+    &__wrapper {
+      height: 185px;
+    }
+
   }
 }
