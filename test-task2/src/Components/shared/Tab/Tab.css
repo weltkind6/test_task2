@@ -7,8 +7,9 @@
     z-index: 1;
     position: absolute;
     border-radius: 5px;
-    width: 187px;
+    width: 185px;
 }
+
 .tab-dropDown > a {
     margin: 10px 0 10px 10px;
     text-decoration: none;
@@ -17,5 +18,25 @@
 }
 
 .tabInvisible {
-   display: none;
+    display: none;
+}
+
+
+@media (min-width: 1440px) {
+    .tab-dropDown {
+
+    }
+
+    .tab-dropDown > a {
+        margin-left: 20px;
+        padding: 10px;
+        color: #222222;
+    }
+
+    .tab-dropDown > a:focus {
+        color: #5A60E7;
+        background: #EFEFFD;
+        text-align: left;
+    }
+
 }

@@ -18,6 +18,7 @@
     color: #FFFFFF;
 }
 
+
 /*1440px*/
 
 @media (min-width: 1440px) {
@@ -25,7 +26,16 @@
         background: #EFEFFD;
         border-radius: 5px;
         display: flex;
+        align-items: center;
         color: rgba(90, 96, 231, 1);
+        cursor: pointer;
+        padding: 5px;
     ;
+    }
+    .TabButtons-span {
+        color: #5A60E7;
+        font-size: 16px;
+        width: 130px;
+        padding: 5px;
     }
 }

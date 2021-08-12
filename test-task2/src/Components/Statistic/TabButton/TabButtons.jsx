@@ -7,7 +7,7 @@ const TabButtons = props => {
             <div className='tabItems'>
                 <img src={props.chartImg} alt="stat1"/>
             </div>
-            <span>Статистика</span>
+            <span className={props.className2}>Статистика</span>
             <div>
                 <img src={props.tabImg} alt="tab"/>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Statistic.scss'
 import TabButton from "./TabButton/TabButtons";
-import Tab from "./Tab/Tab";
+import Tab from "../shared/Tab/Tab";
 import Nearest from "./Nearest/Nearest";
 import tab from '../../img/tab.svg'
 import chart from '../../img/chart.svg'

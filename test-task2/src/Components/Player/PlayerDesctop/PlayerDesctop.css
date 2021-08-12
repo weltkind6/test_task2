@@ -9,6 +9,5 @@
     display: flex;
 }
 .Player__descTop-wrapper {
-    outline: 1px solid red;
-    margin: 50px 65px 235px 20px;
+    padding: 50px 65px 235px 20px;
 }
