@@ -21,10 +21,12 @@ const Player = (props) => {
                     </div>
                 </div>
             </div>
-            <PlayerDescTop
-                showMenu={props.showMenu}
-                state={props.state}
-            />
+             <div className='abraCadabra'>
+                 <PlayerDescTop
+                     showMenu={props.showMenu}
+                     state={props.state}
+                 />
+             </div>
         </div>
     );
 };

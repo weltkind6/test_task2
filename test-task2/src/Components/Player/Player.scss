@@ -58,6 +58,7 @@
       }
     }
 
+
   }
 
   .shareItems-block {
@@ -77,6 +78,10 @@
     }
 
   }
+
+  .abraCadabra {
+    display: none;
+  }
 }
 
 // width 1440 px
@@ -94,5 +99,8 @@
       height: 185px;
     }
 
+    .abraCadabra {
+      display: block;
+    }
   }
 }
