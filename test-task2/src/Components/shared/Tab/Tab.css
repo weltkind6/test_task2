@@ -23,15 +23,13 @@
 
 
 @media (min-width: 1440px) {
-    .tab-dropDown {
-
-    }
 
     .tab-dropDown > a {
-        margin-left: 20px;
         padding: 10px;
         color: #222222;
+        margin: 5px 0 10px 20px;
     }
+
 
     .tab-dropDown > a:focus {
         color: #5A60E7;

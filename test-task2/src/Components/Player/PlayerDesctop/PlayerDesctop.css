@@ -5,9 +5,35 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
 .events-block {
     display: flex;
 }
+
 .Player__descTop-wrapper {
     padding: 50px 65px 235px 20px;
+}
+
+.descTop-nav {
+    margin-top: 155px;
+}
+
+.descTop-nav-wrapper > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.descTop-nav-wrapper > div:last-child {
+    margin-bottom: 0;
+}
+
+.descTop-nav-img {
+    margin-right: 10px;
+}
+
+.vectorImg {
+    padding-left: 3px;
+    padding-right: 5px;
 }
