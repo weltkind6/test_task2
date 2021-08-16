@@ -7,7 +7,6 @@ const TabArrow = () => {
 
     const myClick = () => {
         setRotateTab(!rotateTab);
-        console.log(rotateTab);
     };
 
     const rotateStyle = {
