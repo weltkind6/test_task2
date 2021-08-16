@@ -3,7 +3,6 @@ import './Statistic.scss'
 import TabButton from "./TabButton/TabButtons";
 import Tab from "../shared/Tab/Tab";
 import Nearest from "./Nearest/Nearest";
-import tab from '../../img/tab.svg'
 import chart from '../../img/chart.svg'
 
 
@@ -15,7 +14,6 @@ const Statistic = ({state, showMenu}) => {
                 <div className='tab-wrapper'>
                     <div className='tab-button' onClick={showMenu}>
                         <TabButton
-                            tabImg={tab}
                             chartImg={chart}
                             className={`${'TabButtons-wrapper'}`}
                         />

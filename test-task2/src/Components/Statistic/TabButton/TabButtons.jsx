@@ -1,15 +1,16 @@
 import React from 'react';
 import './TabButtons.css'
+import TabArrow from "../../shared/TabArrow/TabArrow";
 
 const TabButtons = props => {
     return (
-        <div className={props.className}>
+        <div className={props.className} onClick={() => console.log('Hello world?')}>
             <div className='tabItems'>
                 <img src={props.chartImg} alt="stat1"/>
             </div>
             <span className={props.className2}>Статистика</span>
             <div>
-                <img src={props.tabImg} alt="tab"/>
+                <TabArrow/>
             </div>
         </div>
     );

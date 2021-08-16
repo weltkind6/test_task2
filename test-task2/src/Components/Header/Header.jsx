@@ -11,6 +11,7 @@ import backPackCounter from '../../img/Counter.svg'
 import PlayerImg from "../Player/PlayerInfo/PlayerImg/PlayerImg";
 import logo from '../../img/Logo.svg'
 import crossImg from '../../img/CROSSBaLL.svg'
+import TabArrow from "../shared/TabArrow/TabArrow";
 
 const Header = () => {
     return (
@@ -44,12 +45,12 @@ const Header = () => {
                         <a href='#'>Игровые отчеты</a>
                         <a href='#'>Статистика</a>
                         <a href='#'>Еще</a>
-                        <img src={tab} alt="tab"/>
+                        <TabArrow/>
                     </nav>
                     <div className='descTop-dropDawn'>
                         <div className='dropDawn__wrapper'>
                             <img src={ball} alt="ballLogo"/>
-                            <img src={tab} alt="tab"/>
+                            <TabArrow/>
                         </div>
                     </div>
                     <div className='DescTop-avatar'>
