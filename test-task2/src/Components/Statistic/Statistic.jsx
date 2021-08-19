@@ -18,7 +18,9 @@ const Statistic = ({state, showMenu}) => {
                             className={`${'TabButtons-wrapper'}`}
                         />
                     </div>
-                    <Tab state={state}/>
+                    <Tab
+                        state={state}
+                    />
                 </div>
                 <Nearest/>
             </div>

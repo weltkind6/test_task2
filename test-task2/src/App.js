@@ -9,6 +9,7 @@ import Ratio from "./Components/Ratio/Ratio";
 
 function App() {
 
+    // showMenu Hook
     const [state, setState] = React.useState(false)
     const showMenu = () => {
         setState(!state)
