@@ -3,9 +3,12 @@ import tab from "../../../img/tab.svg";
 
 const TabArrow = (props) => {
 
+    const rotateStyle = {
+        transform: "rotate(180deg)"
+    };
 
     return (
-        <div style={props.rotateTab ? props.rotateStyle : null}>
+        <div style={props.rotateTab ? rotateStyle : null}>
             <img src={tab} alt="tab"/>
         </div>
     );
@@ -13,4 +16,3 @@ const TabArrow = (props) => {
 
 export default TabArrow;
 
-// style={rotateTab ? rotateStyle : null} onClick={myClick}
